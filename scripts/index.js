@@ -60,6 +60,8 @@ const winloss = () =>{
   buttons.forEach(button => button.disabled = false);
   wrongGuess = 0;
   checkvalue = 0;
+  document.querySelector(".hint-text b").innerHTML=riddle;
+  document.querySelector(".content b").innerHTML=word;
 }
 
 const youlost = ()=>{

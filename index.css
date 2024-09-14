@@ -154,7 +154,12 @@ body{
     .hangman-box img{
        max-width: 200px;
     }
-    
+    .game-box .word{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom:20px;
+    }
     /* .hangman-box h1{
         display: none;
     } */
