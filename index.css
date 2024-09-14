@@ -54,7 +54,6 @@ body{
     text-transform: capitalize;
 }
 
-
 .game-box h4{
     text-align: center;
     font-size: 1.1rem;
@@ -95,18 +94,20 @@ body{
     background-color:rgb(235, 199, 205);   
 }
 
-
-
 .game-model{
     position: fixed;
     left:0;
     top: 0;
     width: 100%;
     height: 100%;
-    display: none;
     align-items: center;
     justify-content: center;
     background: rgb(0,0,0,0.6);
+}
+
+.game-model.lost,
+.game-model.win {
+    display: none;
 }
 
 .game-model .content{

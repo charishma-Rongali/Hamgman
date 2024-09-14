@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="index.css">
-    <script src="scripts/data.js" defer></script>
-    <script src="scripts/index.js" defer></script>
 </head>
 <body>
-    <div class="game-model">
+    <div class="game-model lost">
         <div class="content">
             <img src="lost.gif" alt="lost">
             <h4>You lost!</h4>
             <h4>The correct word is <b></b></h4>
-            <button class="play-again">Play Again</button>
+            <button class="play-again lost">Play Again</button>
+        </div>
+    </div>
+    <div class="game-model win">
+        <div class="content">
+            <img src="victory.gif" alt="won">
+            <h4>You won</h4>
+            <button class="play-again win">Play Again</button>
         </div>
     </div>
     <div class="container">
@@ -49,5 +54,7 @@
             </div>
         </div>
     </div>
+    <script src="scripts/data.js" defer></script>
+    <script src="scripts/index.js" defer></script>
 </body>
 </html>

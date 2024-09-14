@@ -12,24 +12,12 @@ const riddles=[
         "riddle": "I am a long trip or adventure, often involving travel from one place to another. What am I?"
       },
       {
-        "word": "island",
-        "riddle": "I am a piece of land surrounded by water. What am I?"
-      },
-      {
-        "word": "family",
-        "riddle": "I am a group of people related by blood or marriage. What am I?"
-      },
-      {
         "word": "giraffe",
         "riddle": "I am a tall animal with a long neck and spots. What am I?"
       },
       {
         "word": "picture",
         "riddle": "I am a visual representation captured on paper or a screen. What am I?"
-      },
-      {
-        "word": "calendar",
-        "riddle": "I help you keep track of days, weeks, and months of the year. What am I?"
       },
       {
         "word": "country",
@@ -58,10 +46,6 @@ const riddles=[
       {
         "word": "fascist",
         "riddle": "I am a person who believes in a political system with a dictatorial leader. What am I?"
-      },
-      {
-        "word": "gadget",
-        "riddle": "I am a small mechanical or electronic device designed for a particular purpose. What am I?"
       },
       {
         "word": "horizon",
