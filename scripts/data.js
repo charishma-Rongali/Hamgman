@@ -1,4 +1,4 @@
-const riddles=[
+export const riddles=[
     {
         "word": "airport",
         "riddle": "I am a place where airplanes land and take off. What am I?"
@@ -63,4 +63,5 @@ const riddles=[
         "word": "weather",
         "riddle": "I describe the state of the atmosphere at a given time, including conditions like rain or sunshine. What am I?"
       }
-]
+];
+

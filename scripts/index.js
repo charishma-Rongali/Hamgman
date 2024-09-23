@@ -1,3 +1,4 @@
+import riddles from 'data.js';
 let inputFields;
 const success=7;
 const fail=5;
@@ -13,7 +14,7 @@ inputFields = document.querySelectorAll(".input-underline");
 const clickingButton = (button)=>{
   button.addEventListener("click", () => {
     const letter = button.textContent;
-    if(wrongGuess==fail){
+    if(wrongGuess===fail){
       document.getElementsByClassName("game-model lost")[0].style.display="flex";//ClassName returns a collection of elements
     }
     if (wordLetters.includes(letter)) {
@@ -78,7 +79,7 @@ const youwon = ()=>{
   document.getElementsByClassName("game-model win")[0].style.display="none";
 } 
 const playAgainWin=document.querySelector(".play-again.win");
-const youWon=playAgainWin.addEventListener("click",youwon);
+playAgainWin.addEventListener("click",youwon);
 
 addEventListenerToEachButt();
 
