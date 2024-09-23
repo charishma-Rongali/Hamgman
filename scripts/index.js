@@ -1,4 +1,4 @@
-import riddles from 'data.js';
+import { riddles } from './data.js';
 let inputFields;
 const success=7;
 const fail=5;
